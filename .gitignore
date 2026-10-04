@@ -1,0 +1,39 @@
+# Vivado generated files
+*.jou 
+*.log
+*.str
+*.wdb
+*.pb
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.ip_user_files/
+
+# Vivado temporary/generated directories
+**/.Xil/
+**/*.cache/
+**/*.runs/
+**/*.sim/
+**/*.gen/
+**/*.ip_useer_files/
+
+# Vitis/Eclipse generated files
+.metadata/
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Vitis generated platform/BSP files
+vitis_workspace/*_system/
+vitis_workspace/**/Debug/
+vitis_workspace/**/Release/
+
+# Ignore complete Vitis workspace
+vitis_workspace/
